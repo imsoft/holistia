@@ -67,7 +67,7 @@ const FaqPage = () => {
                       </span>
                     </DisclosureButton>
                   </dt>
-                  <DisclosurePanel as="dd" className="mt-2 pr-12">
+                  <DisclosurePanel transition as="dd" className="mt-2 pr-12 origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0">
                     <p className="text-base leading-7 text-gray-600">
                       {faq.answer}
                     </p>
