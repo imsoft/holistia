@@ -1,29 +1,9 @@
 import Link from "next/link";
 
 const navigation = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
-  ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
+  links: [
+    { name: "Nosotros", href: "/nosotros" },
+    { name: "FAQ", href: "/faq" },
   ],
   social: [
     {
@@ -90,69 +70,16 @@ export const Footer = () => {
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                    Solutions
+                    Nuestros enlaces
                   </h3>
                   <ul role="list" className="mt-6 space-y-4">
-                    {navigation.solutions.map((item) => (
-                      <li key={item.name}>
+                    {navigation.links.map((link) => (
+                      <li key={link.name}>
                         <Link
-                          href={item.href}
+                          href={link.href}
                           className="text-sm leading-6 text-gray-600 hover:text-gray-900"
                         >
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                    Support
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.support.map((item) => (
-                      <li key={item.name}>
-                        <Link
-                          href={item.href}
-                          className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                        >
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                <div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                    Company
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.company.map((item) => (
-                      <li key={item.name}>
-                        <Link
-                          href={item.href}
-                          className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                        >
-                          {item.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                    Legal
-                  </h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.legal.map((item) => (
-                      <li key={item.name}>
-                        <Link
-                          href={item.href}
-                          className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                        >
-                          {item.name}
+                          {link.name}
                         </Link>
                       </li>
                     ))}
