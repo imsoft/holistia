@@ -6,8 +6,8 @@ export const FirstSection = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="relative isolate pt-14">
-          <div className="mx-auto max-w-7xl px-6 py-6 sm:py-8 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-10">
+        <div className="relative isolate">
+          <div className="mx-auto max-w-7xl px-6 py-3 sm:py-4 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-5">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
               <div className="flex">
                 <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -56,7 +56,7 @@ export const FirstSection = () => {
               <svg
                 role="img"
                 viewBox="0 0 366 729"
-                className="mx-auto w-[22.875rem] max-w-full drop-shadow-xl"
+                className="mx-auto w-[20rem] max-w-full drop-shadow-xl"
               >
                 <title>App screenshot</title>
                 <defs>
