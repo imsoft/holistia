@@ -25,8 +25,8 @@ export const Header = () => {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
-                alt=""
-                src="https://tailwindui.com/img/logos/mark.svg?color=sky&shade=600"
+                alt="Logo Holistia"
+                src="/images/logo/H Negro.svg"
                 className="h-8 w-auto"
                 width={32}
                 height={32}
@@ -74,8 +74,8 @@ export const Header = () => {
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image
-                  alt=""
-                  src="https://tailwindui.com/img/logos/mark.svg?color=sky&shade=600"
+                  alt="Logo Holistia"
+                  src="/images/logo/H Negro.svg"
                   className="h-8 w-auto"
                   width={32}
                   height={32}

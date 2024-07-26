@@ -8,8 +8,8 @@ const LoginPage = () => {
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div>
               <Image
-                alt="Your Company"
-                src=""
+                alt="Logo Holistia"
+                src="/images/logo/H Negro.svg"
                 className="h-10 w-auto"
                 width={40}
                 height={40}

@@ -43,8 +43,8 @@ const UsPage = () => {
                     <use x={86} href="#0ef284b8-28c2-426e-9442-8655d393522e" />
                   </svg>
                   <Image
-                    alt=""
-                    src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
+                    alt="Logo Holistia"
+                    src="/images/logo/H Blanco.svg"
                     className="h-12 w-auto"
                     width={48}
                     height={48}
