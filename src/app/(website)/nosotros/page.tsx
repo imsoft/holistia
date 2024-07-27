@@ -44,7 +44,7 @@ const UsPage = () => {
                   </svg>
                   <Image
                     alt="Logo Holistia"
-                    src="/images/logo/H Blanco.svg"
+                    src="/images/logo/H blanco.svg"
                     className="h-12 w-auto"
                     width={48}
                     height={48}
